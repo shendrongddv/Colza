@@ -166,3 +166,11 @@ h6 {
 .footerLink:hover {
   color: var(--c-accent);
 }
+
+.socialItem {
+  height: 3rem;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
