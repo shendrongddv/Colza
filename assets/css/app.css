@@ -1,0 +1,168 @@
+/* Fonts */
+@import url(../fonts/yantramanav/yantramanav.css);
+
+/* Variables */
+:root {
+  --ff-display: "Yantramanav", sans-serif;
+  --ff-body: "Yantramanav", sans-serif;
+
+  --c-base: hsl(220, 13%, 95%);
+  --c-dark: hsl(213, 53%, 3%);
+  --c-body: hsl(0, 0%, 40%);
+  --c-accent: hsl(31, 100%, 50%);
+}
+
+/* Resets */
+body {
+  color: var(--c-body);
+  font-family: var(--ff-body);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--c-dark);
+  font-family: var(--ff-display);
+}
+
+/* Helpers */
+.bg-base {
+  background-color: var(--c-base);
+}
+
+.bg-accent {
+  background-color: var(--c-accent);
+}
+
+.section-padding {
+  padding: 5rem 0;
+}
+
+.header-page {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: url(../images/title-bg.jpg) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.iconBox {
+  height: 3rem;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconBox i {
+  color: var(--c-accent);
+  font-size: 2.5rem;
+}
+
+.form-control,
+.form-select {
+  height: 3rem;
+  border-radius: 0;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border: 1px solid var(--c-accent);
+  box-shadow: none;
+}
+
+/* Btn */
+.btn {
+  height: 3rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-brand {
+  color: white;
+  background-color: #19232b;
+  border: 1px solid #19232b;
+}
+
+.btn-brand:hover {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.btn-accent {
+  color: white;
+  background-color: var(--c-accent);
+  border: 1px solid var(--c-accent);
+}
+
+.btn-accent:hover {
+  color: white;
+  background-color: #19232b;
+  border: 1px solid #19232b;
+}
+
+/* Navbar */
+.navbar-brand img,
+.offcanvas-title img,
+#footer img {
+  max-height: 2.5rem;
+}
+
+/* Footer */
+#footer {
+  color: rgba(255, 255, 255, 0.7);
+  background: url(../images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#footer h1,
+#footer h2,
+#footer h3,
+#footer h4,
+#footer h5,
+#footer h6 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.footerCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.footerList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footerLink {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footerLink:hover {
+  color: var(--c-accent);
+}

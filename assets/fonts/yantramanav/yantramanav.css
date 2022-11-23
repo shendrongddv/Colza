@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Yantramanav";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./Yantramanav-100.woff") format("woff");
+}
+@font-face {
+  font-family: "Yantramanav";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./Yantramanav-300.woff") format("woff");
+}
+@font-face {
+  font-family: "Yantramanav";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Yantramanav-400.woff") format("woff");
+}
+@font-face {
+  font-family: "Yantramanav";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./Yantramanav-500.woff") format("woff");
+}
+@font-face {
+  font-family: "Yantramanav";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./Yantramanav-700.woff") format("woff");
+}
+@font-face {
+  font-family: "Yantramanav";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./Yantramanav-900.woff") format("woff");
+}
